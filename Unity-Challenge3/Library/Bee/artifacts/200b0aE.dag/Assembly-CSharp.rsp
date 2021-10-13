@@ -319,6 +319,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Challenge 3/Scripts/MoveLeftX.cs"
+"Assets/Challenge 3/Scripts/PlayerBounding.cs"
 "Assets/Challenge 3/Scripts/PlayerControllerX.cs"
 "Assets/Challenge 3/Scripts/RepeatBackgroundX.cs"
 "Assets/Challenge 3/Scripts/SpawnManagerX.cs"
