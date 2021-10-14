@@ -968,7 +968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOver: 0
-  floatForce: 0.5
+  floatForce: 0.25
   explosionParticle: {fileID: 1171260740}
   fireworksParticle: {fileID: 66121944}
   moneySound: {fileID: 8300000, guid: af9f934eb4288464eb120a5857921cc3, type: 3}
@@ -1102,6 +1102,7 @@ GameObject:
   - component: {fileID: 1254969024778041351}
   - component: {fileID: 1254969024778041368}
   - component: {fileID: 1984236390720035106}
+  - component: {fileID: 1672443118734095}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1109,6 +1110,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1672443118734095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672443118734094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40cd3fee885b04ebdbda78a384914a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &4217631029260230
 Transform:
   m_ObjectHideFlags: 0
@@ -1117,7 +1130,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672443118734094}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3, y: 12, z: 0}
+  m_LocalPosition: {x: -3, y: 10.3, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 66121942}
